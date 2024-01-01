@@ -1,7 +1,0 @@
-LOAD DATA LOCAL INFILE "R:/IT_A_sec_list.csv"
-INTO TABLE a_section
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 LINES
-(roll_num, first_name, last_name, section, gender);
